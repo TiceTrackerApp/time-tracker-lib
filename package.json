@@ -1,5 +1,5 @@
 {
-  "name": "time-tracker-app-lib",
+  "name": "time-tracker-lib",
   "version": "2.5.2",
   "description": "Time Tracker App Component Library",
   "scripts": {
@@ -13,7 +13,7 @@
   "main": "dist/index.js",
   "source": "src/index.tsx",
   "author": "Matthijs Kralt",
-  "repository": "TravelingTice/time-tracker-app-lib",
+  "repository": "TravelingTice/time-tracker-lib",
   "license": "MIT",
   "dependencies": {
     "@iconify/icons-ant-design": "^1.1.0",
