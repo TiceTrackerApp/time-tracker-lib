@@ -6,8 +6,9 @@
     "dev": "yarn watch & yarn storybook",
     "watch": "tsc -w",
     "prepare": "tsc",
-    "storybook": "start-storybook -p 6006 -s ../client/public",
-    "build-storybook": "build-storybook -s ../client/public"
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "deploy-storybook": "storybook-to-ghpages"
   },
   "main": "dist/index.js",
   "source": "src/index.tsx",
@@ -32,6 +33,7 @@
     "@storybook/node-logger": "^6.1.11",
     "@storybook/preset-scss": "^1.0.3",
     "@storybook/react": "^6.1.11",
+    "@storybook/storybook-deployer": "^2.8.7",
     "@types/react": "^17.0.0",
     "@types/react-motion": "^0.0.29",
     "@types/react-router-dom": "^5.1.6",
