@@ -1,0 +1,57 @@
+{
+  "name": "time-tracker-app-lib",
+  "version": "2.5.2",
+  "description": "Time Tracker App Component Library",
+  "scripts": {
+    "dev": "yarn watch & yarn storybook",
+    "watch": "tsc -w",
+    "prepare": "tsc",
+    "storybook": "start-storybook -p 6006 -s ../client/public",
+    "build-storybook": "build-storybook -s ../client/public"
+  },
+  "main": "dist/index.js",
+  "source": "src/index.tsx",
+  "author": "Matthijs Kralt",
+  "repository": "TravelingTice/time-tracker-app-lib",
+  "license": "MIT",
+  "dependencies": {
+    "@iconify/icons-ant-design": "^1.1.0",
+    "@iconify/icons-carbon": "^1.1.0",
+    "@iconify/icons-ic": "^1.1.1",
+    "@iconify/icons-mdi-light": "^1.1.0",
+    "@iconify/react": "^1.1.3",
+    "bootstrap": "^4.5.3"
+  },
+  "devDependencies": {
+    "@apollo/client": "^3.3.6",
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
+    "@storybook/addon-actions": "^6.1.11",
+    "@storybook/addon-essentials": "^6.1.11",
+    "@storybook/addon-links": "^6.1.11",
+    "@storybook/node-logger": "^6.1.11",
+    "@storybook/preset-scss": "^1.0.3",
+    "@storybook/react": "^6.1.11",
+    "@types/react": "^17.0.0",
+    "@types/react-motion": "^0.0.29",
+    "@types/react-router-dom": "^5.1.6",
+    "@types/styled-components": "^5.1.5",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.1",
+    "dayjs": "^1.9.7",
+    "formik": "^2.2.6",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-motion": "^0.5.2",
+    "react-router-dom": "^5.2.0",
+    "reactstrap": "^8.7.1",
+    "storybook-addon-designs": "^5.4.2",
+    "style-loader": "^2.0.0",
+    "styled-components": "^5.2.1",
+    "ticeboxes": "^2.0.3",
+    "typescript": "^4.1.3"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2"
+  }
+}
