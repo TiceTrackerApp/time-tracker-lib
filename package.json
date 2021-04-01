@@ -13,7 +13,7 @@
   "main": "dist/index.js",
   "source": "src/index.tsx",
   "author": "Matthijs Kralt",
-  "repository": "TravelingTice/time-tracker-lib",
+  "repository": "TiceTrackerApp/time-tracker-lib",
   "license": "MIT",
   "dependencies": {
     "@iconify/icons-ant-design": "^1.1.0",
