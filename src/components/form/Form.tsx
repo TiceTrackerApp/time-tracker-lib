@@ -8,11 +8,6 @@ interface ErrorProps {
 
 type TextFieldProps = ErrorProps & { spaceLeft?: boolean };
 
-export const Label = styled.label<ErrorProps>`
-  background-color: ${({ error }) => (error ? "#fad7d4" : "transparent")};
-  margin: 0;
-`;
-
 interface TextFieldGroupProps {
   isInvalid?: boolean;
   noMarginBottom?: boolean;

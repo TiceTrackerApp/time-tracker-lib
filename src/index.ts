@@ -10,7 +10,6 @@ import CaretLeftIcon from "./components/icons/CaretLeftIcon";
 import InputField from "./components/form/InputField";
 import TransformToInputWrapper from "./components/form/TransformToInputWrapper";
 import StopwatchButton from "./components/StopwatchButton";
-import Counter from "./components/Counter";
 import { HoverButton, HoverIconButton } from "./components/HoverButton";
 import { HoverLink } from "./components/HoverLink";
 import BottomLeft from "./components/position/BottomLeft";
@@ -41,7 +40,6 @@ export {
   InputField,
   TransformToInputWrapper,
   StopwatchButton,
-  Counter,
   HoverButton,
   HoverIconButton,
   HoverLink,
