@@ -18,9 +18,7 @@ import Center from "./components/position/Center";
 import TopRight from "./components/position/TopRight";
 import LayoutContainer from "./components/LayoutContainer";
 import theme, { Theme } from "./theme";
-import toErrorMap from "./utils/toErrorMap";
 import Logo from "./components/Logo";
-import useViewPort from "./hooks/useViewport";
 import AndroidIcon from "./components/icons/AndroidIcon";
 import AppleIcon from "./components/icons/AppleIcon";
 
@@ -50,8 +48,6 @@ export {
   LayoutContainer,
   theme,
   Theme,
-  toErrorMap,
-  useViewPort,
   Logo,
   AndroidIcon,
   AppleIcon,
